@@ -1,0 +1,47 @@
+.RelatedProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Increased gap for better spacing */
+    min-height: 90vh; /* Ensures content takes up enough space */
+    padding: 40px 0; /* Added padding for better structure */
+}
+
+.RelatedProducts h1 {
+    color: #171717;
+    font-size: 40px; /* Reduced size for better balance */
+    font-weight: 600;
+    text-align: center; /* Centered heading */
+    margin-bottom: 10px; /* Added margin for separation from the hr */
+}
+
+.RelatedProducts hr {
+    width: 150px; /* Adjusted width for better proportion */
+    height: 4px; /* Reduced height for a sleeker look */
+    border-radius: 10px;
+    background: #252525;
+    margin-bottom: 30px; /* Added margin for spacing */
+}
+
+.relatedProducts-item {
+    margin-top: 30px; /* Adjusted margin for better alignment */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+    gap: 20px; /* Reduced gap to bring items closer */
+    justify-content: center; /* Centers the items horizontally */
+    max-width: 1200px; /* Restricts maximum width for a neater layout */
+    width: 100%;
+}
+
+/* Optional media query for responsiveness */
+@media (max-width: 1200px) {
+    .relatedProducts-item {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .relatedProducts-item {
+        grid-template-columns: 1fr; /* 1 column on small screens */
+    }
+}

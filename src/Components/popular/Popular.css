@@ -1,0 +1,69 @@
+.popular {
+    padding: 50px 80px; /* Added padding for overall spacing */
+    text-align: center;
+}
+
+.popular h1 {
+    font-size: 36px; /* Increased font size for the heading */
+    font-weight: 700;
+    color: #171717;
+    margin-bottom: 20px;
+}
+
+.popular hr {
+    border: none;
+    height: 3px;
+    background: #FF4141;
+    width: 80px;
+    margin: 0 auto 40px auto; /* Center the line and add spacing */
+}
+
+.popular-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Spacing between items */
+}
+
+.popular-item .item {
+    padding: 15px; /* Padding for each item */
+    background-color: #f9f9f9;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.popular-item .item:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.popular-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Slightly rounded image corners */
+}
+
+.popular-item h2 {
+    font-size: 24px; /* Adjusted font size for item names */
+    color: #333;
+    margin: 15px 0 10px 0;
+    font-weight: 600;
+}
+
+.popular-item .prices {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.popular-item .new-price {
+    font-size: 20px; /* Font size for the new price */
+    color: #FF4141;
+    font-weight: 700;
+}
+
+.popular-item .old-price {
+    font-size: 16px; /* Font size for the old price */
+    color: #999;
+    text-decoration: line-through;
+}

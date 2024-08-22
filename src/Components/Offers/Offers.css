@@ -1,0 +1,60 @@
+.offers {
+    width: 80%; /* Increased width for better content coverage */
+    max-width: 1200px; /* Set a max-width to maintain layout on larger screens */
+    height: 50vh; /* Reduced height for a more compact look */
+    display: flex;
+    margin: auto;
+    padding: 20px 80px; /* Adjusted padding for better spacing */
+    margin-bottom: 100px; /* Reduced bottom margin */
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    border-radius: 20px; /* Added border-radius for a modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.offers-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px; /* Added padding for better content separation */
+}
+
+.offers-left h1 {
+    color: #171717;
+    font-size: 48px; /* Reduced font size for better readability */
+    font-weight: 600;
+    margin-bottom: 15px; /* Added margin below the heading */
+}
+
+.offers-left p {
+    color: #171717;
+    font-size: 20px; /* Slightly reduced font size */
+    font-weight: 600;
+    line-height: 1.5; /* Improved line spacing for readability */
+    margin-bottom: 20px; /* Added margin below the paragraph */
+}
+
+.offers-left button {
+    width: 240px; /* Reduced button width */
+    height: 60px; /* Reduced button height */
+    border-radius: 30px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 20px; /* Slightly reduced font size */
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.offers-left button:hover {
+    background: #e63b3b; /* Darken button color on hover */
+}
+
+.offers-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px; /* Adjusted padding for better image placement */
+}

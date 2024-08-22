@@ -1,0 +1,111 @@
+.productDisplay {
+    display: flex;
+    margin: 50px 100px; /* Adjusted margin for better spacing */
+    gap: 50px; /* Added gap between left and right sections */
+}
+
+.productdisplay-left {
+    display: flex;
+    gap: 20px; /* Slightly increased gap between image list and main image */
+}
+
+.productdisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased gap for better spacing */
+}
+
+.productdisplay-img-list img {
+    height: 150px; /* Adjusted height for better fit */
+    width: 100px; /* Added width for consistent image dimensions */
+    object-fit: cover; /* Ensure images are not stretched */
+    border-radius: 8px; /* Added border radius for a smoother look */
+}
+
+.productdisplay-main-img {
+    width: 500px; /* Reduced width for better balance */
+    height: 650px; /* Adjusted height for proportion */
+    object-fit: cover; /* Ensure the main image maintains aspect ratio */
+    border-radius: 8px; /* Added border radius for a cohesive design */
+}
+
+.productdisplay-right {
+    margin: 0px 50px; /* Adjusted margin for better balance */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Added gap between text sections */
+}
+
+.productdisplay-right h1 {
+    color: #3d3d3d;
+    font-size: 36px; /* Slightly reduced font size for better readability */
+    font-weight: 700;
+}
+
+.productdisplay-right-stars {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 8px; /* Increased gap for better spacing */
+    color: #1c1c1c;
+    font-size: 18px; /* Slightly increased font size for emphasis */
+}
+
+.productdisplay-right-prices {
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px; /* Reduced gap for a tighter layout */
+    font-size: 22px; /* Adjusted font size for balance */
+    font-weight: 700;
+}
+
+.productdisplay-right-price-old {
+    color: #818181;
+    text-decoration: line-through;
+}
+
+.productdisplay-right-price-new {
+    color: #ff4141;
+}
+
+.productdisplay-right-size h1 {
+    margin-top: 30px; /* Reduced margin-top for a more compact layout */
+    color: #656565;
+    font-size: 18px; /* Adjusted font size for consistency */
+    font-weight: 600;
+}
+
+.productdisplay-right-sizes {
+    display: flex;
+    margin: 20px 0px;
+    gap: 15px; /* Reduced gap for a closer grouping of size options */
+}
+
+.productdisplay-right-sizes div {
+    padding: 15px 20px; /* Adjusted padding for a more balanced look */
+    background: #c7c6c6;
+    border: 1px solid #ebebeb;
+    border-radius: 5px; /* Increased border radius for a smoother look */
+    cursor: pointer;
+}
+
+.productdisplay-right button {
+    padding: 18px 36px; /* Adjusted padding for better button proportions */
+    width: 220px; /* Slightly increased width for a more prominent button */
+    font-size: 18px; /* Slightly increased font size for better readability */
+    font-weight: 600;
+    color: white;
+    background: #FF4141;
+    margin-bottom: 30px; /* Reduced bottom margin */
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.productdisplay-right-category {
+    margin-top: 15px; /* Adjusted margin for better spacing */
+}
+
+.productdisplay-right-category span {
+    font-weight: 600;
+}
